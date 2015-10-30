@@ -28,11 +28,13 @@
 .same-speaker {
     display: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> fix-scrolling
 .speaker-display {
     display: none;
 }
-
 .speaker-display.active {
     display: inline;
 }
@@ -46,6 +48,7 @@
 .scroller .playing {
     background-color: #6cf;
 }
+<<<<<<< HEAD
 
 .scroller ul {
     list-style: none;
@@ -62,3 +65,24 @@
 */
 
 
+=======
+
+.scroller ul {
+    list-style: none;
+}
+
+/*
+.scroller .tier {
+    display: none;
+}
+.scroller .tier.active {
+    display: block;
+}
+*/
+/* Styles for .transcript-container: it fixes the scrolling issues with transcript_ui.js*/
+.transcript-container {
+    height: 500px;
+    overflow-x: auto;
+    transition: all 100ms ease 0s;
+}
+>>>>>>> fix-scrolling

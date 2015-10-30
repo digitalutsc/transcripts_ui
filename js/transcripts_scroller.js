@@ -156,7 +156,7 @@
                     var idTop = $id.position().top;
 
                     //sentence out of view above - do we ever get here?
-                    if (idTop <= 0 && this.sweetSpot <= 0) {
+                    if (idTop <= 0 || this.sweetSpot <= 0) {
                         this.sweetSpot = 0;
                         this.container.scrollTo($id);
                     }
