@@ -28,10 +28,7 @@
 .same-speaker {
     display: none;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> fix-scrolling
 .speaker-display {
     display: none;
 }
@@ -48,7 +45,6 @@
 .scroller .playing {
     background-color: #6cf;
 }
-<<<<<<< HEAD
 
 .scroller ul {
     list-style: none;
@@ -63,9 +59,6 @@
     display: block;
 }
 */
-
-
-=======
 
 .scroller ul {
     list-style: none;
@@ -85,4 +78,4 @@
     overflow-x: auto;
     transition: all 100ms ease 0s;
 }
->>>>>>> fix-scrolling
+
