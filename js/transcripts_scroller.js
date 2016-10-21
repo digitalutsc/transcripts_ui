@@ -137,7 +137,8 @@
                         this.startPointer = 0; //go back to start
                         this.playIndex = 0;
                     }
-                    while (now > this.starts[this.startPointer]['begin']) {
+
+                    while (typeof this.starts[this.startPointer] !== 'undefined' && now > this.starts[this.startPointer]['begin']) {
                         if (now < this.starts[this.startPointer]['end']) {
                             this.playIndex = this.startPointer;
                             this.startPlay(this.starts[this.startPointer].$item);
